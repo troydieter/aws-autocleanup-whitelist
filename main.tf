@@ -8,9 +8,3 @@ module "aws-autocleanup-whitelist" {
   resource_id = "example_resource-id"
 
 }
-
-variable aws-profile {}
-variable aws_region {}
-variable ddb_table_name {
-    default = "auto-cleanup-whitelist-prod"
-}
